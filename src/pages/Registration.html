@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Регистрация</h1>
+    <form action="/registration" method="post">
+        <label for="">Имя</label><br>
+        <input type="text" name="name" id="name"><br>
+        <label for="">Пароль</label><br>
+        <input type="text" name="password" id="password"><br>
+        <select id="role" name="role">
+            <option value="1">программист</option>
+            <option value="2">студент</option>
+            <option value="3">преподователь</option>
+        </select><br>
+        <input type="submit">
+    </form>
+
+    <a href="/login">Авторизация</a> 
+
+</body>
+</html>
